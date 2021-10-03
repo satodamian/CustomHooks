@@ -3,5 +3,5 @@ UseCounter Hook
 
 Ejemplo de  USO
 ```
-    const{counter, incremet, decremet, reset} = useCounter(10);
+    const { data } = useFetch(https://www.breakingbadapi.com/api/quotes/${counter});
 ```
