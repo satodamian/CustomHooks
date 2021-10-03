@@ -3,5 +3,7 @@ UseCounter Hook
 
 Ejemplo de  USO
 ```
-    const{counter, incremet, decremet, reset} = useCounter(10);
+  const [ {description}, handleInputChange, reset] = useForm({
+        description: ''
+    })
 ```
